@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="64x64" href="logo.png">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container right-panel-active">
+        <!-- Sign Up -->
+        <div class="container__form container--signup">
+            <form action="#" class="form" id="form1">
+                <h2 class="form__title">Ro'yxatdan o'tish</h2>
+                <input type="text" placeholder="Foydalanuvchi" class="input" />
+                <input type="email" placeholder="Elektron pochta" class="input" />
+                <input type="password" placeholder="Parol" class="input" />
+                <button class="btn">Ro'yxatdan o'tish</button>
+            </form>
+        </div>
+    
+        <!-- Sign In -->
+        <div class="container__form container--signin">
+            <form action="#" class="form" id="form2">
+                <h2 class="form__title">Tizimga kirish</h2>
+                <input type="email" placeholder="Elektron pochta" class="input" />
+                <input type="password" placeholder="Parol" class="input" />
+                <a href="#" class="link">Parolingiz esdan chiqdimi?</a>
+                <button class="btn">Tizimga kirish</button>
+            </form>
+        </div>
+    
+        <!-- Overlay -->
+        <div class="container__overlay">
+            <div class="overlay">
+                <div class="overlay__panel overlay--left">
+                    <button class="btn" id="signIn">Tizimga kirish</button>
+                </div>
+                <div class="overlay__panel overlay--right">
+                    <button class="btn" id="signUp">Ro'yxatdan o'tish</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script defer src="main.js"></script>
+</body>
+</html>
